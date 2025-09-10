@@ -4,6 +4,7 @@ score=0;
 lifes=3
 assests=['snake','water','gun']
  
+ 
 def gameProcees(user,computer):
     global score,lifes
     if(assests[user]=='snake'and assests[computer]=='water'):
